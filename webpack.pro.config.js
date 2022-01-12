@@ -80,7 +80,7 @@ module.exports = {
                     // 关闭url-loaderes6模块化解析 使用common.js解析
                     esModule:false,
                     // 区hash的前10位 ext 原来的扩展名
-                    name:'[hash:10].[ext]',
+                    name:'[hash:5][name].[ext]',
                     outputPath:'imgs'
                 }
             },
